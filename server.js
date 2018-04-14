@@ -10,7 +10,7 @@ const app = express();
 //client.connect();
 //client.on('error', err=>console.error(err));
 
-app.use(cors);
+app.use(cors());
 
 app.get('/test',(req,res) =>
     res.send('hello world'))
