@@ -12,8 +12,13 @@ const app = express();
 
 app.use(cors());
 
-app.get('/test',(req,res) =>
-    res.send('hello world'))
+app.get('/books',(req,res) => {
+  client.query (`
+  SELECT * FROM books;
+  `).then(result => res.send(result.rows))
+  .catch(console.error);
+});
+    
 
 
 app.listen(PORT, () => console.log(`listening on PORT: ${PORT}`));
