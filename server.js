@@ -20,10 +20,10 @@ app.get('/books',(req,res) => {
 });
 app.get('/api/v1/books',(req,res) => {
   client.query (`
-  SELECT book_id, title, author, image_url FROM books;
+  SELECT book_id, description, title, isbn, author, image_url FROM books;
   `).then(result => res.send(result.rows))
   .catch(console.error);
 });
-//app.get('*', (req, res) => res.redirect(CLIENT_URL));
+app.get('*', (req, res) => res.redirect(CLIENT_URL));
 
 app.listen(PORT, () => console.log(`listening on PORT: ${PORT}`));
