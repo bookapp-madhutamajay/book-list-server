@@ -24,6 +24,6 @@ app.get('/api/v1/books',(req,res) => {
   `).then(result => res.send(result.rows))
   .catch(console.error);
 });
-app.get('*', (req, res) => res.redirect(CLIENT_URL));
+//app.get('*', (req, res) => res.redirect(CLIENT_URL));
 
 app.listen(PORT, () => console.log(`listening on PORT: ${PORT}`));
