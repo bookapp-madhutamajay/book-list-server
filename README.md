@@ -1,6 +1,6 @@
 # book-app
 
-# Lab 11
+# Lab 11-
 
 **Authors**: Tama Rushin, Jay Silvas, Mahdu Rebbana
 **Version**: 1.0.0
