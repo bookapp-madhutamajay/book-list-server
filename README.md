@@ -1,6 +1,6 @@
-# book-list-server
+# book-app
 
-# Lab 10
+# Lab 11
 
 **Authors**: Tama Rushin, Jay Silvas, Mahdu Rebbana
 **Version**: 1.0.0
