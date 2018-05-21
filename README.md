@@ -2,7 +2,7 @@
 
 # Lab 11-
 
-**Authors**: Tama Rushin, Jay Silvas, Mahdu Rebbana
+**Authors**: Tama Rushin, Jay Silvas, Mahdu
 **Version**: 1.0.0
 
 ## Overview
